@@ -25,7 +25,9 @@ Em resposta, foi criado o ShelterHub, um sistema web inovador para simplificar o
 
 #### Funcionalidades
 
--breve descrição das funcionalidades e telas-
+As funcionalidades básicas do ShelterHub incluem cadastrar, editar, excluir e visualizar Abrigos, Itens, Categorias, e Unidades de medida.
+
+No Abrigo, é possível adicionar os itens que estão em seu estoque e efetuar transações de Entrada e Saída destes itens.
 
 #### API
 
