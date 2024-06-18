@@ -29,11 +29,26 @@ Em resposta, foi criado o ShelterHub, um sistema web inovador para simplificar o
 
 #### API
 
--adicionar documentação dos endpoints-
+Há 5 entidades presentes na API:
 
-### Desenvolvimento
+- ``Shelter`` - Representação de um abrigo
+- ``Category`` - Representação de uma categoria, relacionada ao ``Item``
+- ``MeasurementUnit`` - Representação de uma unidade de medida, relacionada ao ``Item``
+- ``Item`` - Representação de um item que pode ser recebido pelos abrigos
+- ``ItemShelter`` - A relação entre o item e o abrigo, que compõe o estoque do abrigo
+- ``Transaction`` - Representação de uma transação, que pode ser feita ao receber doações ou ao utilizar os itens que se encontravam no estoque
 
--adicionar descrição do desenvolvimento-
+Para todas estas entidades, existem os endpoints descritos abaixo:
+
+- ``GET /entidade`` - Retorna todos os registros existentes da entidade
+- ``GET /entidade/{id}`` - Retorna o registro correspondente ao identificador enviado
+- ``POST /entidade`` - Salva um novo registro na entidade
+- ``PUT /entidade`` - Atualiza um registro existente na entidade
+- ``DELETE /entidade/{id}`` - Remove o registro correspondente ao identificador enviado
+
+Para as entidades ``ItemShelter`` e ``Transaction``, há também o seguinte endpoint:
+
+- ``GET /entidade/shelter/{shelter_id}`` - Retorna todos os registros relacionados ao abrigo correspondente ao identificador enviado
 
 #### Tecnologias
 
@@ -41,16 +56,14 @@ Em resposta, foi criado o ShelterHub, um sistema web inovador para simplificar o
 - Spring Boot
 - Hibernate
 - PostgreSQL
-- tecnologias do front
+- Angular
+- Angular Material
+- Bootstrap
 
 #### Ambiente de desenvolvimento
 
 - IntelliJ IDEA
-- ide do front
-
-#### Referências e créditos
-
-- ???
+- WebStorm
 
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2024a) em 2024a
