@@ -1,14 +1,15 @@
 # Projeto: ShelterHub
 
--adicionar print-
+![WhatsApp Image 2024-06-17 at 23 09 39](https://github.com/elc1090/project3-2024a-shelterhub/assets/20145947/b36a9b75-4dfd-4bc6-9556-7cdc843147f7)
 
-Acesso: -link deploy front-
+
+Acesso: https://shelterhub-front.vercel.app/home
 
 API: https://delicate-cass-vitoriapizzutti-e8c0ca48.koyeb.app/
 
 Repositórios
 
-Front-end: -link repositório front-
+Front-end: https://github.com/brucvei/shelterhub-front
 
 Back-end: https://github.com/pizzutta/shelterhub-api
 
