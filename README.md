@@ -5,7 +5,7 @@
 
 Acesso: https://shelterhub-front.vercel.app/home
 
-API: https://delicate-cass-vitoriapizzutti-e8c0ca48.koyeb.app/
+API: shelterhub-api.koyeb.app/
 
 Repositórios
 
