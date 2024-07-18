@@ -137,7 +137,7 @@ Após os passos anteriores, os relatórios deverão estar atualizados
 
 ##### 1.4. Configuração de itens
 
-##### Itens
+##### 1.4.1. Itens
 
 Ao clicar em **Itens**, uma tabela com os itens cadastrados será apresentada
 
@@ -167,7 +167,7 @@ O item deve ser removido
 
 Ao visualizar os Abrigos envolvidos, a Transação deverá aparecer na listagem e a quantidade deverá estar atualizada na aba **Itens**
 
-##### Categorias
+##### 1.4.2. Categorias
 
 Ao clicar em **Categorias**, uma tabela com as categorias cadastradas será apresentada
 
@@ -185,7 +185,7 @@ A nova categoria deve aparecer na listagem
 
 A categoria deve ser atualizada
 
-##### Unidades de medidas
+##### 1.4.3. Unidades de medidas
 
 Ao clicar em **Unidades de medidas**, uma tabela com as unidades de medidas cadastradas será apresentada
 
