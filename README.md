@@ -203,5 +203,23 @@ A nova unidade de medida deve aparecer na listagem
 
 A unidade de medida deve ser atualizada
 
+### 1. Usuário Voluntário
+
+#### 1.1. Login
+
+Ao realizar o login, o Voluntário é cadastrado automaticamente e relacionado ao Abrigo de id 1
+
+- Acesse a rota /login/1
+- Preencha as informações (caso já tenha usado o seu CPF como admin, utilize um gerador de CPF para gerar um aleatório)
+- Clique no botão **Entrar**
+
+As Transações do Abrigo de id 1 devem ser mostradas
+
+#### 1.2. Transações
+
+O Voluntário só possui permissão para realizar Transações no seu abrigo, outras configurações são feitas pelo Admin
+
+A maneira de realizar Transações é a mesma do Admin
+
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2024a) em 2024a
